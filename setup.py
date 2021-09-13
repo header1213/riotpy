@@ -12,7 +12,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/header1213/riotpy',
-    download_url='https://github.com/header1213/riotpy',
+    download_url='https://github.com/header1213/riotpy/archive/refs/heads/main.zip',
     install_requires= ['requests'],
     packages=setuptools.find_packages(exclude = []),
     python_requires='>=3',
