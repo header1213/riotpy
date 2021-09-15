@@ -5,14 +5,13 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
     name='riotpy',
-    version='0.0.1',
+    version='0.0.2',
     author='Daniel Lee',
     author_email='tworiver1213@gmail.com',
     description='Package for Riot API',
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/header1213/riotpy',
-    download_url='https://github.com/header1213/riotpy/archive/refs/heads/main.zip',
     install_requires= ['requests'],
     packages=setuptools.find_packages(exclude = []),
     python_requires='>=3',
